@@ -1,0 +1,11 @@
+.trade-img{
+    height: 35rem;
+}
+.pro-img{
+   border-radius: 10px;
+}
+.pro-txt{
+    color: red;
+    padding-top:7px;
+    padding-left: 3px;
+}

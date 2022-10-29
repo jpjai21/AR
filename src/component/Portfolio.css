@@ -1,0 +1,136 @@
+.header{
+    font-size: 3rem;
+}
+.p-t1{
+    
+    line-height:"26px";
+    font-size: x-large; 
+}
+.p-t2{
+    color: white;
+    font-size: 1rem;
+}
+.h4{
+    color: red;
+    font-size: 2rem;
+}
+
+.h4 {
+    --c: #0c323e;
+    line-height: 1.2em;
+    background: conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, #0000 0)
+        0 var(--p, 0%),
+      conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0) 100%
+        var(--p, 0%);
+    background-size: var(--s, 0%) 200%;
+    background-repeat: no-repeat;
+    transition: 0.4s ease-in, background-position 0s;
+  }
+  .h4:hover {
+    --p: 100%;
+    --s: calc(
+      50% + 0.61em
+    ); /* it should be 0.6em(1.2em/2) but we use a litte bigger */
+    color: #fff;
+  }
+
+
+.contact-icon{
+    position: relative;
+    overflow: hidden;
+}
+.contact-icon{
+    width: 5rem;
+    height: 5rem;
+}
+.contact-icon{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    margin-top: 19px;
+}
+.btn-sign{
+    height: auto;
+    width: max-content;
+    padding: 10px -2px;
+}
+.btn-sign {
+	background: linear-gradient(to right, gold, darkorange);
+	color: white;
+	--width: 180px;
+	--height: calc(var(--width) / 3);
+	width: var(--width);
+	height: var(--height);
+	text-align: center;
+	line-height: var(--height);
+	font-size: calc(var(--height) / 2.5);
+	font-family: sans-serif;
+	letter-spacing: 0.2em;
+	border: 1px solid darkgoldenrod;
+	border-radius: 2em;
+	transform: perspective(500px) rotateY(-15deg);
+	text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 0 0 5px rgba(0, 0, 0, 0.2);
+	transition: 0.5s;
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-sign:hover {
+	transform: perspective(500px) rotateY(15deg);
+	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sign::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, transparent, white, transparent);
+	left: -100%;
+	transition: 0.5s;
+}
+
+.btn-sign:hover::before {
+	left: 100%;
+}
+.img-mob{
+   justify-content: start;
+   display: flex;
+   align-items: center;
+   height: 35rem;   
+}
+
+
+
+
+
+@media screen and (max-device-width: 1200px)
+{
+  
+ }
+
+@media screen and (max-device-width: 900px)
+{
+   
+ }
+
+@media screen and (max-device-width: 700px)
+{
+  
+ }
+
+  @media screen and (max-device-width: 480px)
+ {
+    .img-mob{
+        justify-content: start;
+        display: flex;
+        align-items: center;
+        height: 15rem;
+         
+     }
+  
+  }
+
+

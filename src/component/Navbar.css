@@ -1,0 +1,20 @@
+.icon{
+    margin-top: 140px;
+    color: black;
+    background-color: black;
+}
+
+.icon-name{
+ text-align: center;
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+    height: 3rem;
+    border-radius: 4rem;
+}
+.logo-name{
+    padding-top: 15px;
+    padding-left: 7px;
+}
