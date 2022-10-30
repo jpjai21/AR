@@ -10,12 +10,13 @@ import Footer from "./component/Footer";
 import Download from "./component/Download";
 import Safe from "./component/Safe";
 // import Contact from "./component/Card";
+import Banner from "./sections/Banner";
 
 const linksArrey = ["Home", "Development", "Trade", "Service", "Contact-us"];
 function App() {
   return (
     <Box>
-      <Navbar links={linksArrey} />
+      {/* <Navbar links={linksArrey} />
 
       <Head1 />
       <Portfolio />
@@ -23,9 +24,11 @@ function App() {
       <Feature />
       <Safe/>
       <Download/>
-      <Footer/> 
+      <Footer/>  */}
       
       {/* <Contact/> */}
+
+      <Banner/>
     </Box>
   );
 }
